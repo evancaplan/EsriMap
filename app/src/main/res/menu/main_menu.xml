@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Ocean_Basemap"
+            android:title="@string/OceanMenu" />
+        <item
+            android:id="@+id/World_Street_Map"
+            android:title="@string/StreetMapMenu" />
+        <item
+            android:id="@+id/World_Topo"
+            android:title="@string/TopoMenu" />
+        <item
+            android:id="@+id/Gray"
+            android:title="@string/GrayMenu" />
+        <item
+            android:id="@+id/Satellite_Map"
+            android:title="Satellite" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/lastHour"
+            android:title="Past Hour" />
+        <item
+            android:id="@+id/last24Hours"
+            android:title="Past 24 Hours" />
+        <item
+            android:id="@+id/lastWeek"
+            android:title="Past Week" />
+        <item
+            android:id="@+id/lastMonth"
+            android:title="Past Month" />
+        <item
+            android:id="@+id/resetZoom"
+            android:title="Reset Zoom"/>
+    </group>
+
+
+</menu>
