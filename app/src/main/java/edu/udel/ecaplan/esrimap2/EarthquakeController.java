@@ -213,7 +213,6 @@ public class EarthquakeController {
     //method gets called on in the getEarthquakes method in order to turn
     //the geojson feed that was converted to an InputStream
     //into a string
-    //this code if from an ESRI tutorial detailed in my project description
     public String convertStreamToString(InputStream input) {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(input));
